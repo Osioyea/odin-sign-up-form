@@ -4,33 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="background-image">
-    background-image
-    <div class="logo">
-      logo
+  <div class="page">
+    <div class="background-image">
+      background-image
+      <div class="logo">
+        logo
+      </div>
     </div>
+    <div class="main">
+      <h2 class="hook">
+        This is a 99% real service! Sign up now to uhhh... get something?
+        Whatever just give me your personal information,
+        don't worry I won't do anyting with it I promise.
+      </h2>
+      <div class="user-signup">
+        <form>
+          <h2 class="tagline">Enter here!</h2>
+          <div class="inputs">
+            <p>
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" required>
+            </p>
+            <p>
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" required>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" name="phone-number" id="phone-number" required>
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required>
+            </p>
+            <p>
+              <label for="confirm-pass">Confirm Password</label>
+              <input type="password" name="confirm-password" id="confirm-pass" required>
+            </p>
+          </div>
+          <div class="btn">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+      </div>
+      <div class="user-login">
+        Already have an account? <span class="lie-check">Log in</span>
+      </div>
   </div>
-  <div class="main">
-    <div class="hook">
-      hook
-    </div>
-    <div class="user-signup">
-      <form>
-        <h2 class="tagline">tagline</h2>
-        <input type="text">
-        <input type="text">
-        <input type="email">
-        <input type="tel">
-        <input type="password">
-        <input type="password">
-        <button type="submit"></button>
-      </form>
-    </div>
-    <div class="user-login">
-      user-login
-    </div>
   </div>
 </body>
 </html>

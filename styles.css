@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page{
+  display: flex;
+}
+
+.background-image{
+  min-width: 35vw;
+  height: 100vh;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hook, .user-login{
+  background-color: lightgrey;
+  height: 33vh;
+}
+
+.user-signup{
+  height: 34vh;
+}
+
+form{
+  padding: 20px;
+  height: 100%;
+}
+
+.tagline{
+  padding-bottom: 20px;
+}
+
+.inputs{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10vw;
+  gap: 20px 0px;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  flex: 1 1 50%;
+}
+
+input, label{
+  display: block;
+}
+
+input{
+  width: 100%;
+  height: 27px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+input:focus{
+  outline: none;
+  border-color: blue;
+  box-shadow: 1px 1px 5px gray;
+}
+
+button{
+  position: absolute;
+  font-size: 1rem;
+  margin-top: 49px;
+  padding: 10px 50px;
+}
