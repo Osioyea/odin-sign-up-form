@@ -21,7 +21,19 @@
 
 .hook, .user-login{
   background-color: lightgrey;
-  height: 33vh;
+  padding: 40px;
+  width: 65vw;
+}
+
+.hook{
+  height: 36vh;
+  padding-top: 10vh;
+}
+
+.message{
+  max-width: 700px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
 }
 
 .user-signup{
@@ -29,7 +41,8 @@
 }
 
 form{
-  padding: 20px;
+  padding: 20px 40px;
+  padding-right: 0;
   height: 100%;
 }
 
@@ -41,14 +54,14 @@ form{
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  padding-right: 10vw;
   gap: 20px 0px;
+  max-width: 700px;
 }
 
 p{
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 300px;
   flex: 1 1 50%;
 }
 
@@ -72,6 +85,23 @@ input:focus{
 button{
   position: absolute;
   font-size: 1rem;
-  margin-top: 49px;
+  margin-top: 60px;
   padding: 10px 50px;
+}
+
+.user-login{
+  height: 30vh;
+}
+
+.login-check{
+  margin-top: 60px;
+  font-size: 1.1rem;
+}
+
+.lie-check{
+  color: blue;
+}
+
+.lie-check:hover{
+  color: darkblue;
 }
