@@ -9,8 +9,29 @@
 }
 
 .background-image{
-  min-width: 35vw;
+  min-width: 40vw;
   height: 100vh;
+  background-image: url(/images/money.jpg);
+  background-size: 1000px 900px;
+  background-position: top -100px left -150px;
+}
+
+.logo-container{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 200px;
+  padding: 50px;
+}
+
+.logo{
+  color: white;
+  font-size: 2rem;
+}
+
+.image-credit{
+  position: absolute;
+  bottom: 0px;
+  font-size: 14px;
 }
 
 .main{
@@ -22,7 +43,7 @@
 .hook, .user-login{
   background-color: lightgrey;
   padding: 40px;
-  width: 65vw;
+  width: 60vw;
 }
 
 .hook{
